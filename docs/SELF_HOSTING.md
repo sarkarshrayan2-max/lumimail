@@ -44,11 +44,11 @@ cp wrangler.jsonc.example wrangler.jsonc
 
 Update `wrangler.jsonc` with your specific settings, such as:
 
--account_id
--D1 database ID
--R2 bucket names
--queue names
--environment variables
+- account_id
+- D1 database ID
+- R2 bucket names
+- queue names
+- environment variables
 
 Now that Wrangler is authenticated and configured, store the Cloudflare API token
 you created earlier as a secret:
